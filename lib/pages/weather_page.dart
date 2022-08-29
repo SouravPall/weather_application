@@ -33,6 +33,31 @@ class _WeatherPageState extends State<WeatherPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      backgroundColor: Colors.blueGrey.shade600,
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+        title: const Text('Weather'),
+        actions: [
+          IconButton(
+              onPressed: () {},
+              icon: const Icon(Icons.location_searching),
+          ),
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(Icons.search),
+          ),
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(Icons.settings),
+          ),
+        ],
+      ),
+      body: Center(
+        child: provider.hasDataLoaded ? ListView() :
+        const Text('Please Wait....'),
+      ),
+    );
   }
 }
