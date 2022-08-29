@@ -37,7 +37,6 @@ class WeatherProvider extends ChangeNotifier{
     }catch(error){
       rethrow;
     }
-
   }
 
   void _getForecastData() async{

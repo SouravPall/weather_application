@@ -27,11 +27,12 @@ class _WeatherPageState extends State<WeatherPage> {
   _getData() {
     determinePosition().then((position) {
       provider.setNewLocation(position.latitude, position.longitude);
+      provider.getWeatherData();
     });
   }
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold();
   }
 }
