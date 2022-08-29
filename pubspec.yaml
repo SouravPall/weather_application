@@ -82,7 +82,9 @@ flutter:
   fonts:
      - family: RobotoMono
        fonts:
-         - asset: fonts/
+         - asset: fonts/RobotoMono-Bold.ttf
+         - asset: fonts/RobotoMono-Medium.ttf
+         - asset: fonts/RobotoMono-Regular.ttf
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf
