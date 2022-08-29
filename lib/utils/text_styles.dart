@@ -22,7 +22,7 @@ const textDateHeader18 = TextStyle(
     color:  Colors.white
 );
 
-const textDate16 = TextStyle(
+const textNormal16 = TextStyle(
     fontSize: 16,
     color:  Colors.white
 );
